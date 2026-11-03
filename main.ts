@@ -1,15 +1,5 @@
 import { Book, MAX_BOOKS } from "./Book";
-
-class Library {
-  private books: Book[] = [];
-
-  addBook(book: Book): void {
-    this.books.push(book);
-  }
-  getAllBooks(): Book[] {
-    return this.books;
-  }
-}
+import { Library } from "./Library";
 
 const library = new Library();
 library.addBook(new Book("1984", "George Orwell"));
