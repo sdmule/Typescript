@@ -1,6 +1,11 @@
-import { Book, MAX_BOOKS } from "./models/Book";
-import { Library } from "./models/Library";
-import type { BookID } from "./types/book.types";
+// import { Book, MAX_BOOKS } from "./models/Book";
+// import { Library } from "./models/Library";
+
+// import { Book, MAX_BOOKS, Library } from "./models/index";
+import { Book, MAX_BOOKS, Library } from "./models";
+
+// import type { BookID } from "./types/book.types";
+import type { BookID } from "./types";
 
 const library = new Library();
 library.addBook(new Book("1984", "George Orwell"));
