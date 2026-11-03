@@ -1,5 +1,5 @@
 import { Book } from "./Book";
-import type { BookID } from "./book.types";
+import type { BookID } from "../types/book.types";
 
 export class Library {
   private books: Book[] = [];
